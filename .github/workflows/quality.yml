@@ -1,0 +1,31 @@
+name: quality
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  python-quality:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: Install dependencies
+        run: python -m pip install -r requirements.txt
+      - name: Compile Python
+        run: python -m py_compile app.py
+      - name: Validate CSV
+        run: |
+          python - <<'PY'
+          import pandas as pd
+          df = pd.read_csv("data/diplomatic_events.csv")
+          required = {"date","country","partner","region","lat","lon","category","severity","impact","event"}
+          missing = required - set(df.columns)
+          assert not missing, f"Missing columns: {missing}"
+          assert len(df) > 0, "Dataset is empty"
+          assert df["severity"].between(1, 5).all(), "Invalid severity"
+          assert df["impact"].between(0, 100).all(), "Invalid impact"
+          print(f"Validated {len(df)} events")
+          PY

@@ -1,0 +1,40 @@
+date,country,partner,region,lat,lon,category,severity,impact,event
+2025-01-12,Saudi Arabia,United Arab Emirates,Middle East,24.7,46.7,Diplomacy,2,48,strategic dialogue
+2025-01-20,Saudi Arabia,United States,Middle East,24.7,46.7,Security,4,82,security consultation
+2025-02-03,India,Saudi Arabia,South Asia,20.6,78.9,Trade,2,55,trade delegation
+2025-02-15,United States,United Kingdom,North America,39.8,-98.6,Alliance,2,63,bilateral summit
+2025-03-01,China,Saudi Arabia,East Asia,35.9,104.2,Trade,3,77,investment agreement
+2025-03-14,United Arab Emirates,India,Middle East,24.5,54.4,Trade,2,59,trade delegation
+2025-03-27,France,Germany,Europe,46.2,2.2,Alliance,2,61,ministerial meeting
+2025-04-05,United Kingdom,India,Europe,55.4,-3.4,Diplomacy,2,51,diplomatic visit
+2025-04-18,Qatar,United States,Middle East,25.3,51.5,Security,3,71,security consultation
+2025-05-02,Saudi Arabia,Qatar,Middle East,24.7,46.7,Diplomacy,2,52,regional forum
+2025-05-16,India,United States,South Asia,20.6,78.9,Alliance,3,74,joint statement
+2025-05-29,China,India,East Asia,35.9,104.2,Security,4,88,security consultation
+2025-06-10,Japan,United States,East Asia,36.2,138.3,Alliance,2,68,joint statement
+2025-06-24,South Korea,Japan,East Asia,35.9,127.8,Diplomacy,2,56,ministerial meeting
+2025-07-07,Saudi Arabia,France,Middle East,24.7,46.7,Trade,2,64,investment agreement
+2025-07-21,United Kingdom,Saudi Arabia,Europe,55.4,-3.4,Diplomacy,3,73,strategic dialogue
+2025-08-04,United States,Japan,North America,39.8,-98.6,Security,3,76,defence dialogue
+2025-08-18,India,France,South Asia,20.6,78.9,Alliance,2,62,joint statement
+2025-09-01,Saudi Arabia,India,Middle East,24.7,46.7,Trade,3,79,investment agreement
+2025-09-15,United Arab Emirates,China,Middle East,24.5,54.4,Trade,2,65,trade delegation
+2025-09-29,Germany,China,Europe,51.2,10.4,Diplomacy,3,72,strategic dialogue
+2025-10-13,Saudi Arabia,United States,Middle East,24.7,46.7,Security,4,91,defence dialogue
+2025-10-27,Qatar,United Kingdom,Middle East,25.3,51.5,Diplomacy,2,57,diplomatic visit
+2025-11-10,India,Japan,South Asia,20.6,78.9,Alliance,2,67,strategic dialogue
+2025-11-24,China,Japan,East Asia,35.9,104.2,Security,4,86,security consultation
+2025-12-08,Saudi Arabia,United Arab Emirates,Middle East,24.7,46.7,Alliance,2,60,bilateral summit
+2025-12-22,France,United Kingdom,Europe,46.2,2.2,Alliance,2,66,ministerial meeting
+2026-01-10,Saudi Arabia,China,Middle East,24.7,46.7,Trade,3,78,investment agreement
+2026-01-24,India,United Arab Emirates,South Asia,20.6,78.9,Trade,2,58,trade delegation
+2026-02-07,United States,South Korea,North America,39.8,-98.6,Security,3,75,defence dialogue
+2026-02-21,Saudi Arabia,United Kingdom,Middle East,24.7,46.7,Diplomacy,2,54,strategic dialogue
+2026-03-07,China,Indonesia,East Asia,35.9,104.2,Trade,2,63,trade delegation
+2026-03-21,India,United States,South Asia,20.6,78.9,Alliance,3,81,joint statement
+2026-04-04,Saudi Arabia,Qatar,Middle East,24.7,46.7,Diplomacy,2,49,regional forum
+2026-04-18,United States,France,North America,39.8,-98.6,Alliance,2,65,bilateral summit
+2026-05-02,United Arab Emirates,France,Middle East,24.5,54.4,Trade,2,56,investment agreement
+2026-05-16,India,United Kingdom,South Asia,20.6,78.9,Diplomacy,2,53,diplomatic visit
+2026-06-01,Saudi Arabia,India,Middle East,24.7,46.7,Trade,3,76,strategic dialogue
+2026-06-15,Japan,South Korea,East Asia,36.2,138.3,Alliance,2,64,ministerial meeting
