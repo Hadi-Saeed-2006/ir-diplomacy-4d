@@ -21,4 +21,4 @@ The profile should answer four practical questions:
 3. Is activity becoming more or less intense over the selected period?
 4. What recent media signals may warrant further primary-source validation?
 
-News coverage is treated as a signal about media attention, not proof that an event occurred. GDELT DOC 2.0 provides article-list search and JSON output for this type of coverage analysis. citeturn0search1
+News coverage is treated as a signal about media attention, not proof that an event occurred. GDELT DOC 2.0 provides article-list search and JSON output for this type of coverage analysis.
