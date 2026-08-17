@@ -12,7 +12,7 @@ The script writes `data/gdelt_news.csv` and does not modify the core event datas
 
 ## Why this design?
 
-The GDELT DOC 2.0 API supports article search and JSON/CSV output. citeturn1search0 The raw GDELT Event Database is also publicly distributed as daily files, but those files are much larger and have a more complex schema. citeturn1search10turn1search12
+The GDELT DOC 2.0 API supports article search and JSON/CSV output. The raw GDELT Event Database is also publicly distributed as daily files, but those files are much larger and have a more complex schema.
 
 Keeping the live news layer optional means the dashboard remains demoable even when the network or external service is unavailable.
 
