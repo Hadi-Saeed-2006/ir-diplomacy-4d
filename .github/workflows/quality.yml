@@ -17,7 +17,8 @@ jobs:
       - name: Compile Python
         run: python -m py_compile app.py
       - name: Validate CSV
-        run: python - <<'PY'
+        run: |
+          python - <<'PY'
           import pandas as pd
           df = pd.read_csv("data/diplomatic_events.csv")
           required = {"date","country","partner","region","lat","lon","category","severity","impact","event"}
@@ -27,4 +28,4 @@ jobs:
           assert df["severity"].between(1, 5).all(), "Invalid severity"
           assert df["impact"].between(0, 100).all(), "Invalid impact"
           print(f"Validated {len(df)} events")
-        PY
+          PY
